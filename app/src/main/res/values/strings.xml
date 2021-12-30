@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Translation</string>
+    <string name="persian">Persian</string>
+    <string name="english">English</string>
+    <string name="arabic">Arabic</string>
+    <string name="recently_translated_is_empty">Recently translated (is empty)</string>
+    <string name="recently_translated">Recently translated</string>
+    <string name="loading_please_wait">Loading. Please wait...</string>
+    <string name="token_expired">Token expired</string>
+    <string name="no_results_found">No results found</string>
+    <string name="not_available">Not available</string>
+</resources>
