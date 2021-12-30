@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_marginStart="2dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginEnd="2dp"
+    android:layout_marginBottom="4dp"
+    android:layoutDirection="ltr"
+    app:cardCornerRadius="12dp"
+    app:contentPadding="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text_view_source_word"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:singleLine="true"
+            android:textDirection="ltr"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/text_view_destination_word"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Hello" />
+
+        <TextView
+            android:id="@+id/text_view_destination_word"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="end"
+            android:singleLine="true"
+            android:textDirection="ltr"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/image_view_heart"
+            app:layout_constraintHorizontal_bias="0.32"
+            app:layout_constraintStart_toEndOf="@id/text_view_source_word"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="سلام" />
+
+        <ImageView
+            android:id="@+id/image_view_heart"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/ic_heart_fill"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/image_view_close"
+            app:layout_constraintStart_toEndOf="@+id/text_view_destination_word"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/image_view_close"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:padding="4dp"
+            android:src="@drawable/ic_close"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
