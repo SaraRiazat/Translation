@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginBottom="4dp"
+    app:cardBackgroundColor="#FFF"
+    app:cardCornerRadius="12dp"
+    app:contentPadding="12dp">
+
+    <TextView
+        android:id="@+id/text_view_sample_sentence"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        tools:text="حقیقت قاصره . [ ح َ قی ق َ ت ِ ص ِ رَ / رِ ] (ترکیب وصفی ، اِ مرکب ) (اصطلاح اصول و ادب ) و آن نزد اهل عربیت استعمال لفظ است در جزء معنی آن ، چنانکه در تجرید آمده است .حقیقت شناس . [ ح َ قی ق َ ش ِ ] (نف مرکب ) آنکه معرفت بحقایق دارد : ندارم ز دینار خسرو سپاس که او نیست شاه حقیقت شناس .فردوسی .حکایت کنند از بزرگان دین حقیقت شناسان عین الیقین . سعدی .توان گفتن این با حقیقت شناس ولی خرده گیرند اهل قیاس .سعدی ." />
+
+</androidx.cardview.widget.CardView>
